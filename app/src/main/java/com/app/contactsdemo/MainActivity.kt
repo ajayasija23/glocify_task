@@ -1,10 +1,7 @@
 package com.app.contactsdemo
 
-import android.content.ContentValues.TAG
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.provider.ContactsContract
-import android.util.Log
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
@@ -12,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.app.contactsdemo.databinding.ActivityMainBinding
 import com.app.contactsdemo.viewModel.ContactsViewModel
+import contacts.core.Contacts
 
 class MainActivity : AppCompatActivity() {
 
